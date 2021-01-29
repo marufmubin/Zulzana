@@ -1,0 +1,1384 @@
+/**********************************************
+			Mobile Media Query
+***********************************************/
+
+@media (min-width: 320px) and (max-width: 480px){
+	/*code start*/
+	.header-section .navbar-light .navbar-nav .nav-link{
+		display: block;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		border-top: 1px solid #fff;
+		padding: 20px 0px;
+		margin: 0px;
+
+	}
+	.header-section .navbar-light .navbar-nav .nav-link:hover{
+		background-color: #000000a1;
+		border-color: #000000a1;
+		color: #fff;
+	}
+	.header-section .navbar-light .navbar-brand img{
+		width: 160px;
+	}
+	.header-section .inner-slider p{
+		font-size: 16px;
+	}
+	.header-section .inner-slider{
+		padding: 20px;
+	}
+	.header-section .inner-slider h5 {
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+	}
+	.header-section .inner-slider .btn-info{
+		margin-bottom: 45px !important;
+	}
+	.header-section .inner-slider h1{
+		font-size: 25px;
+	    font-weight: 500;
+	    line-height: 35px;
+	    text-align: justify;
+	    margin: 0px auto;
+	}
+	.header-section .cos{
+		clip-path: none;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link.active{
+		display: block;
+		background: black;
+		text-align: center;
+		color: #fff;
+		padding: 20px 0px;
+		margin: 30px 0px 0px 0px;
+	}
+	.header-section .bg-light{
+		border-bottom: none;
+	}
+	.about-us .inner-about{
+		padding: 0px;
+	}
+	.about-us .inner-about .pro {
+    font-size: 14px;
+	}
+	.about-us .inner-about .vit {
+    width: 100%;
+    color: #555;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    text-align: justify;
+	}
+	.about-us .inner-about h2 {
+    font-size: 30px;
+    line-height: 24px;
+	}
+	.about-us .inner-about .one h6{
+		text-align: center;
+	}
+	.about-us .inner-about .one .one-fa {
+    margin-top: 0px;
+    font-size: 55px;
+    color: #1abc9c;
+	}
+	.about-us .inner-about{
+		border: none;
+	}
+	.about-us .inner-about .faw{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.about-us .inner-about .one p {
+    width: 100%;
+    color: #999;
+    padding: 12px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+	}
+	.about-us .inner-about-sec {
+    width: 100%;
+    background: url(../images/yoga-about.jpg) center top no-repeat;
+    background-size: cover;
+    padding: 58px 0px;
+	}
+	.about-us .inner-about-sec img {
+    border: 5px solid #fff;
+    border-left: none;
+    width: 146px;
+    position: relative;
+    top: 62px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+	}
+	.about-us .inner-about .one .one-faa {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #ffc825;
+	}
+	.about-us .inner-about .one .one-faaa {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #17a2b8;
+	}
+	.about-us .inner-about .one h6 {
+    width: 100%;
+    margin-top: 10px;
+    color: #999;
+    padding: 2px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	}
+	.feacher-section{
+	width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(229, 234, 230);
+	}
+	.feacher-section .cds-three{
+    margin: 56px 20px 20px;
+	}
+	.feacher-section .cds-six{
+		margin: 38px 20px 20px;
+	}
+	.feacher-section .cds-one .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-one img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-one .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-two .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-two img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-two .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-three .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-three img {
+    width: 145px;
+    margin: 0px auto 0px;
+	}
+	.feacher-section .cds-three .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-four .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-four img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-four .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-five .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-five img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-five .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-six .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-six img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-six .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.setisfied-section h3{
+    font-size: 40px;
+    margin: 0px 0px 20px;
+    text-align: center;
+	}
+	.setisfied-section p{
+	width: 85%;
+	margin: 0px auto;
+	text-align: center;
+	font-size:19px;
+	}
+	.setisfied-section .inner-satisfied{
+	    margin-bottom: 25px;
+	}
+	.setisfied-section img{
+		width: 100%;
+	}
+	.pricing-section{
+    padding: 20px;
+	}
+	.pricing-section .pro {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	.pricing-section h2{
+	    font-size: 32px;
+	}
+	.pricing-section .vit{
+	    width: 100%;
+	    margin: 0px auto;
+	    text-align: justify;
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.pricing-section img {
+    width: 100%;
+    margin: 4px 0px 0px;
+	}
+	.pricing-section .fist h6 {
+    width: 100%;
+    font-size: 32px;
+    margin: 0px auto;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+	}
+	.pricing-section .fist p{
+		text-align: center;
+	}
+	.pricing-section .fist .btn-info{
+	  margin: 0px 0px 40px;
+	}
+	.pricing-section .sec{
+	 padding: 0px;
+	margin: 0px 0px 30px;
+	}
+	.pricing-section .sec img {
+	    margin: 0px auto -10px;
+	    width: 65%;
+	}
+	.pricing-section .sec h6 {
+	    color: #555;
+	    padding: 25px 26px;
+	    font-size: 22px;
+	    width: 100%;
+	    font-weight: 600;
+	}
+	.pricing-section .sec .btn{
+	    margin: 0px 49px 40px;
+	}
+	.pricing-section .third img {
+	    margin: 0px 0px -16px;
+	    width: 100%;
+	}
+	.pricing-section .third{
+	    padding: 10px;
+	    text-align: left;
+	}
+	.pricing-section .third h6{
+		padding: 25px 20px;
+	}
+	.pricing-section .third .kids{
+	    text-align: center;
+	}
+	.pricing-section .third .btn-info{
+	    margin: 30px 40px;
+	}
+	.pricing-section h3 {
+    position: absolute;
+    top: -32px;
+    width: 72%;
+    left: 16%;
+    line-height: 20px;
+    font-size: 16px;
+    right: 0px;
+    background-color: #e5eae6;
+    display: inline-table;
+    padding: 8px;
+    font-weight: 600;
+	}
+	.pricing-section .inner-box  ul {
+	    margin-top: 13px !important;
+	    padding: 15px;
+	}
+	.pricing-section .inner-box {
+	    margin: 48px 0px 30px;
+	    border: 2px solid #90a67c8c;
+	    position: relative;
+	    padding: 0px 0px;
+	}
+
+	.gallary-section{
+    padding: 20px;
+	}
+	.gallary-section .inner-text h5 {
+	    font-size: 14px;
+	}
+	.gallary-section .inner-text h3{
+	    font-size: 30px;
+	    line-height: 24px;
+	}
+	.gallary-section .inner-text p{
+	    width: 100%;
+	    color: #555;
+	    font-size: 16px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.gallary-section img{
+	    width: 100%;
+	    margin: 4px 0px 0px;
+	}
+
+	.inner-gallary img{
+		width: 100%;
+	}
+	.poses-section .inner-video-sec img {
+    width: 100%;
+    margin: 0px 0px 0px;
+	}
+	.poses-section .inner-video-sec img {
+    width: 100%;
+    margin: 0px;
+	}
+	.poses-section .inner-video-sec {
+	    margin: 20px 0px 0px;
+	}
+	.poses-section{
+	    padding: 0px;
+	}
+	.poses-section .inner-text {
+    padding: 50px 0px 0px;
+	}
+	.poses-section .inner-text h5{
+	font-size: 14px;
+	}
+
+	.poses-section .inner-text h3{
+	font-size: 30px;
+	line-height: 36px;
+	}
+
+	.poses-section .inner-text p{
+	width: 100%;
+	    color: #555;
+	    font-size: 16px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.messege-section{
+	 padding: 50px 0px;
+	}
+	.messege-section .inner-text h5{
+	 font-size: 14px;
+	}
+	.messege-section .inner-text h3{
+	 font-size: 30px;
+	 line-height: 30px;
+	}
+	.messege-section .inner-text p{
+	 width: 100%;
+	    color: #555;
+	    font-size: 16px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.footer-section{
+		padding: 15px 0px 0px;
+	}
+	.footer-section .troy{
+		padding: 0px;
+	}
+
+	/*code end*/
+}
+
+/***************************************************** 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*******************************************************/
+
+@media (min-width: 481px) and (max-width: 767px) {
+   /* Code start*/
+	.header-section .navbar-light .navbar-nav .nav-link{
+		display: block;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		border-top: 1px solid #fff;
+		padding: 20px 0px;
+		margin: 0px;
+
+	}
+	.header-section .navbar-light .navbar-nav .nav-link:hover{
+		background-color: #000000a1;
+		border-color: #000000a1;
+		color: #fff;
+	}
+	.header-section .navbar-light .navbar-brand img{
+		width: 160px;
+	}
+	.header-section .inner-slider p{
+		font-size: 16px;
+	}
+	.header-section .inner-slider{
+		padding: 20px;
+	}
+	.header-section .inner-slider h5 {
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+	}
+	.header-section .inner-slider .btn-info{
+		margin-bottom: 45px !important;
+	}
+	.header-section .inner-slider h1{
+		font-size: 25px;
+	    font-weight: 500;
+	    line-height: 35px;
+	    text-align: justify;
+	    margin: 0px auto;
+	}
+	.header-section .cos{
+		clip-path: none;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link.active{
+		display: block;
+		background: black;
+		text-align: center;
+		color: #fff;
+		padding: 20px 0px;
+		margin: 30px 0px 0px 0px;
+	}
+	.header-section .bg-light{
+		border-bottom: none;
+	}
+	.about-us .inner-about{
+		padding: 0px;
+	}
+	.about-us .inner-about .pro {
+    font-size: 14px;
+	}
+	.about-us .inner-about .vit {
+    width: 100%;
+    color: #555;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    text-align: justify;
+	}
+	.about-us .inner-about h2 {
+    font-size: 30px;
+    line-height: 24px;
+	}
+	.about-us .inner-about .faw{
+		text-align: center;
+	}
+	.about-us .inner-about .one h6{
+		text-align: center;
+	}
+	.about-us .inner-about .one .one-fa {
+    margin-top: 0px;
+    font-size: 55px;
+    color: #1abc9c;
+	}
+	.about-us .inner-about{
+		border: none;
+	}
+	.about-us .inner-about .one p {
+	text-align: center;
+    width: 100%;
+    color: #999;
+    padding: 12px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+	}
+	.about-us .inner-about-sec {
+    width: 100%;
+    background: url(../images/yoga-about.jpg) center top no-repeat;
+    background-size: cover;
+    padding: 58px 0px;
+	}
+	.about-us .inner-about-sec img {
+    border: 5px solid #fff;
+    border-left: none;
+    width: 146px;
+    position: relative;
+    top: 62px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+	}
+	.about-us .inner-about .one .one-faa {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #ffc825;
+	}
+	.about-us .inner-about .one .one-faaa {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #17a2b8;
+	}
+	.about-us .inner-about .one h6 {
+    width: 100%;
+    margin-top: 10px;
+    color: #999;
+    padding: 2px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	}
+	.feacher-section{
+	width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(229, 234, 230);
+	}
+	.feacher-section .cds-three{
+    margin: 56px 20px 20px;
+	}
+	.feacher-section .cds-six{
+		margin: 38px 20px 20px;
+	}
+	.feacher-section .cds-one{
+		display: block !important;
+		width: 100%;
+	}
+	.feacher-section .cds-one .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-one img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-one .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-two .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-two img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-two .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-three .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-three img {
+    width: 145px;
+    margin: 0px auto 0px;
+	}
+	.feacher-section .cds-three .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-four .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-four img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-four .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-five .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-five img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-five .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-six .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-six img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-six .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.setisfied-section h3{
+    font-size: 40px;
+    margin: 0px 0px 20px;
+    text-align: center;
+	}
+	.setisfied-section p{
+	width: 85%;
+	margin: 0px auto;
+	text-align: center;
+	font-size:19px;
+	}
+	.setisfied-section .inner-satisfied{
+	    margin-bottom: 25px;
+	}
+	.setisfied-section img{
+		width: 100%;
+	}
+	.pricing-section{
+    padding: 20px;
+	}
+	.pricing-section .pro {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	.pricing-section h2{
+	    font-size: 32px;
+	}
+	.pricing-section .vit{
+	    width: 100%;
+	    margin: 0px auto;
+	    text-align: justify;
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.pricing-section img {
+    width: 100%;
+    margin: 4px 0px 0px;
+	}
+	.pricing-section .fist h6 {
+    width: 100%;
+    font-size: 37px;
+    margin: 0px auto;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+ 	}
+	.pricing-section .fist p{
+		text-align: center;
+	}
+	.pricing-section .fist .btn-info{
+	  margin: 0px 146px 40px;
+	}
+	.pricing-section .sec{
+	 padding: 0px;
+	margin: 0px 0px 30px;
+	}
+	.pricing-section .sec img {
+	    margin: 0px auto -10px;
+	    width: 35%;
+	}
+	.pricing-section .sec h6 {
+	    color: #555;
+	    padding: 25px 26px;
+	    font-size: 42px;
+	    width: 100%;
+	    font-weight: 600;
+	}
+	.pricing-section .sec .btn{
+	    margin: 0px 49px 40px;
+	}
+	.pricing-section .third img {
+	    margin: 0px 0px -16px;
+	    width: 100%;
+	}
+	.pricing-section .third{
+	    padding: 10px;
+	    text-align: center;
+	}
+	.pricing-section .third h6{
+		padding: 25px 20px;
+		text-align: center;
+		font-size: 42px;
+	}
+	.pricing-section .third .kids{
+	    text-align: center;
+	}
+	.pricing-section .third .btn-info{
+	    margin: 30px 40px;
+	}
+	.pricing-section h3 {
+    position: absolute;
+    top: -37px;
+    width: 65%;
+    text-align: center;
+    left: 16%;
+    line-height: 29px;
+    font-size: 25px;
+    right: 0px;
+    background-color: #e5eae6;
+    display: inline-table;
+    padding: 2px;
+    font-weight: 600;
+ 	}
+	.pricing-section .inner-box  ul {
+	    margin-top: 13px !important;
+	    padding: 15px;
+	}
+	.pricing-section .inner-box {
+	    margin: 48px 0px 30px;
+	    border: 2px solid #90a67c8c;
+	    position: relative;
+	    padding: 0px 0px;
+	}
+
+	.gallary-section{
+    padding: 20px;
+	}
+	.gallary-section .inner-text h5 {
+	    font-size: 21px;
+	}
+	.gallary-section .inner-text h3{
+	    font-size: 42px;
+	    line-height: 52px;
+	}
+	.gallary-section .inner-text p{
+	    width: 100%;
+	    color: #555;
+	    font-size: 22px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.gallary-section img{
+	    width: 100%;
+	    margin: 4px 0px 0px;
+	}
+
+	.inner-gallary img{
+		width: 100%;
+	}
+	.poses-section .inner-video-sec img {
+    width: 100%;
+    margin: 0px 0px 0px;
+	}
+	.poses-section .inner-video-sec img {
+    width: 100%;
+    margin: 0px;
+	}
+	.poses-section .inner-video-sec {
+	    margin: 20px 0px 0px;
+	}
+	.poses-section{
+	    padding: 0px;
+	}
+	.poses-section .inner-text {
+    padding: 50px 0px 0px;
+	}
+	.poses-section .inner-text h5{
+	font-size: 14px;
+	}
+
+	.poses-section .inner-text h3{
+	font-size: 30px;
+	line-height: 36px;
+	}
+
+	.poses-section .inner-text p{
+	width: 100%;
+	    color: #555;
+	    font-size: 16px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.messege-section{
+	 padding: 50px 0px;
+	}
+	.messege-section .inner-text h5{
+	 font-size: 18px;
+	}
+	.messege-section .inner-text h3{
+	 font-size: 37px;
+	 line-height: 40px;
+	 margin: 20px 0px 56px;
+	}
+	.messege-section .inner-text p{
+	 width: 100%;
+	 color: #555;
+	 font-size: 16px;
+	 line-height: 23px;
+	 font-weight: 500;
+	 text-align: center;
+	}
+	.footer-section{
+		padding: 15px 0px 0px;
+	}
+	.footer-section .troy{
+		padding: 0px;
+	}
+  /* Code end*/
+}
+/***************************************************************************
+							orientation: landscape
+****************************************************************************/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  																   /* Code start*/
+	.header-section .navbar-light .navbar-nav .nav-link{
+		display: block;
+		background: #000;
+		text-align: center;
+		color: #fff;
+		border-top: 1px solid #fff;
+		padding: 20px 0px;
+		margin: 0px;
+
+	}
+	.header-section .navbar-light .navbar-nav .nav-link:hover{
+		background-color: #000000a1;
+		border-color: #000000a1;
+		color: #fff;
+	}
+	.header-section .navbar-light .navbar-brand img{
+		width: 160px;
+	}
+	.header-section .inner-slider p{
+		font-size: 16px;
+	}
+	.header-section .inner-slider{
+		padding: 20px;
+	}
+	.header-section .inner-slider h5 {
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding: 0px;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+	}
+	.header-section .inner-slider .btn-info{
+		margin-bottom: 45px !important;
+	}
+	.header-section .inner-slider h1{
+		font-size: 25px;
+	    font-weight: 500;
+	    line-height: 35px;
+	    text-align: justify;
+	    margin: 0px auto;
+	}
+	.header-section .cos{
+		clip-path: none;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link.active{
+		display: block;
+		background: black;
+		text-align: center;
+		color: #fff;
+		padding: 20px 0px;
+		margin: 30px 0px 0px 0px;
+	}
+	.header-section .bg-light{
+		border-bottom: none;
+	}
+	.about-us .inner-about{
+		padding: 0px;
+	}
+	.about-us .inner-about .pro {
+    font-size: 14px;
+	}
+	.about-us .inner-about .vit {
+    width: 100%;
+    color: #555;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    text-align: justify;
+	}
+	.about-us .inner-about h2 {
+    font-size: 30px;
+    line-height: 24px;
+	}
+	.about-us .inner-about .faw{
+		text-align: center;
+	}
+	.about-us .inner-about .one h6{
+		text-align: center;
+	}
+	.about-us .inner-about .one .one-fa {
+    margin-top: 0px;
+    font-size: 55px;
+    color: #1abc9c;
+	}
+	.about-us .inner-about{
+		border: none;
+	}
+	.about-us .inner-about .one p {
+	text-align: center;
+    width: 100%;
+    color: #999;
+    padding: 12px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+	}
+	.about-us .inner-about-sec {
+    width: 100%;
+    background: url(../images/yoga-about.jpg) center top no-repeat;
+    background-size: cover;
+    padding: 58px 0px;
+	}
+	.about-us .inner-about-sec img {
+    border: 5px solid #fff;
+    border-left: none;
+    width: 146px;
+    position: relative;
+    top: 62px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+	}
+	.about-us .inner-about .one .one-faa {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #ffc825;
+	}
+	.about-us .inner-about .one .one-faaa {
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 0px;
+    color: #17a2b8;
+	}
+	.about-us .inner-about .one h6 {
+    width: 100%;
+    margin-top: 10px;
+    color: #999;
+    padding: 2px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	}
+	.feacher-section{
+	width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(229, 234, 230);
+	}
+	.feacher-section .cds-three{
+    margin: 56px 20px 20px;
+	}
+	.feacher-section .cds-six{
+		margin: 38px 20px 20px;
+	}
+	.feacher-section .cds-one{
+		display: block !important;
+		width: 100%;
+	}
+	.feacher-section .cds-one .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-one img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-one .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-two .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-two img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-two .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-three .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-three img {
+    width: 145px;
+    margin: 0px auto 0px;
+	}
+	.feacher-section .cds-three .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-four .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-four img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-four .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-five .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-five img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-five .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.feacher-section .cds-six .card-text {
+	width: 100%;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+	font-weight: 500;
+	}
+	.feacher-section .cds-six img {
+	width: 145px;
+	margin: 40px auto 0px;
+	}
+	.feacher-section .cds-six .card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+	.setisfied-section h3{
+    font-size: 40px;
+    margin: 0px 0px 20px;
+    text-align: center;
+	}
+	.setisfied-section p{
+	width: 85%;
+	margin: 0px auto;
+	text-align: center;
+	font-size:19px;
+	}
+	.setisfied-section .inner-satisfied{
+	    margin-bottom: 25px;
+	}
+	.setisfied-section img{
+		width: 100%;
+	}
+	.pricing-section{
+    padding: 20px;
+	}
+	.pricing-section .pro {
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	.pricing-section h2{
+	    font-size: 32px;
+	}
+	.pricing-section .vit{
+	    width: 100%;
+	    margin: 0px auto;
+	    text-align: justify;
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+	.pricing-section img {
+    width: 100%;
+    margin: 4px 0px 0px;
+	}
+	.pricing-section .fist h6 {
+    width: 100%;
+    font-size: 37px;
+    margin: 0px auto;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+ 	}
+	.pricing-section .fist p{
+		text-align: center;
+	}
+	.pricing-section .fist .btn-info{
+	  margin: 0px 146px 40px;
+	}
+	.pricing-section .sec{
+	 padding: 0px;
+	margin: 0px 0px 30px;
+	}
+	.pricing-section .sec img {
+	    margin: 0px auto -10px;
+	    width: 35%;
+	}
+	.pricing-section .sec h6 {
+	    color: #555;
+	    padding: 25px 26px;
+	    font-size: 42px;
+	    width: 100%;
+	    font-weight: 600;
+	}
+	.pricing-section .sec .btn{
+	    margin: 0px 49px 40px;
+	}
+	.pricing-section .third img {
+	    margin: 0px 0px -16px;
+	    width: 100%;
+	}
+	.pricing-section .third{
+	    padding: 10px;
+	    text-align: center;
+	}
+	.pricing-section .third h6{
+		padding: 25px 20px;
+		text-align: center;
+		font-size: 42px;
+	}
+	.pricing-section .third .kids{
+	    text-align: center;
+	}
+	.pricing-section .third .btn-info{
+	    margin: 30px 40px;
+	}
+	.pricing-section h3 {
+    position: absolute;
+    top: -37px;
+    width: 65%;
+    text-align: center;
+    left: 16%;
+    line-height: 29px;
+    font-size: 25px;
+    right: 0px;
+    background-color: #e5eae6;
+    display: inline-table;
+    padding: 2px;
+    font-weight: 600;
+ 	}
+	.pricing-section .inner-box  ul {
+	    margin-top: 13px !important;
+	    padding: 15px;
+	}
+	.pricing-section .inner-box {
+	    margin: 48px 0px 30px;
+	    border: 2px solid #90a67c8c;
+	    position: relative;
+	    padding: 0px 0px;
+	}
+
+	.gallary-section{
+    padding: 20px;
+	}
+	.gallary-section .inner-text h5 {
+	    font-size: 21px;
+	}
+	.gallary-section .inner-text h3{
+	    font-size: 42px;
+	    line-height: 52px;
+	}
+	.gallary-section .inner-text p{
+	    width: 100%;
+	    color: #555;
+	    font-size: 22px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.gallary-section img{
+	    width: 100%;
+	    margin: 4px 0px 0px;
+	}
+
+	.inner-gallary img{
+		width: 100%;
+	}
+	.poses-section .inner-video-sec img {
+    width: 100%;
+    margin: 0px 0px 0px;
+	}
+	.poses-section .inner-video-sec img {
+    width: 100%;
+    margin: 0px;
+	}
+	.poses-section .inner-video-sec {
+	    margin: 20px 0px 0px;
+	}
+	.poses-section{
+	    padding: 0px;
+	}
+	.poses-section .inner-text {
+    padding: 50px 0px 0px;
+	}
+	.poses-section .inner-text h5{
+	font-size: 14px;
+	}
+
+	.poses-section .inner-text h3{
+	font-size: 30px;
+	line-height: 36px;
+	}
+
+	.poses-section .inner-text p{
+	width: 100%;
+	    color: #555;
+	    font-size: 16px;
+	    line-height: 23px;
+	    font-weight: 500;
+	    text-align: justify;
+	}
+	.messege-section{
+	 padding: 50px 0px;
+	}
+	.messege-section .inner-text h5{
+	 font-size: 18px;
+	}
+	.messege-section .inner-text h3{
+	 font-size: 37px;
+	 line-height: 40px;
+	 margin: 20px 0px 56px;
+	}
+	.messege-section .inner-text p{
+	 width: 100%;
+	 color: #555;
+	 font-size: 16px;
+	 line-height: 23px;
+	 font-weight: 500;
+	 text-align: center;
+	}
+	.footer-section{
+		padding: 15px 0px 0px;
+	}
+	.footer-section .troy{
+		padding: 0px;
+	}
+  /* Code end*/
+}
