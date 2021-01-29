@@ -607,10 +607,6 @@
 	.feacher-section .cds-six{
 		margin: 38px 20px 20px;
 	}
-	.feacher-section .cds-one{
-		display: block !important;
-		width: 100%;
-	}
 	.feacher-section .cds-one .card-text {
 	width: 100%;
 	font-size: 16px;
@@ -1383,3 +1379,29 @@
 	}
   /* Code end*/
 }
+/* **********************************************
+big landscape tablets, laptops, and desktops 
+*************************************************/
+@media (min-width:1200px) and (max-width:1700px) { 
+
+/*code start*/
+	.setisfied-section img{
+		width: 100% !important;
+
+	}
+	.setisfied-section .inner-satisfied{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+
+
+
+
+
+
+
+
+
+/*code end*/
+ }
