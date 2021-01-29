@@ -21,7 +21,7 @@ a, a:hover{
 .header-section .cos{
 	width: 100%;
 	background-color: rgb(117, 139, 119, .7);
-   	clip-path: polygon(0 0, 89% 0, 43% 100%, 0 100%);
+   clip-path: polygon(31% 0, 61% 0, 100% 0, 48% 100%, 0 100%, 0% 60%, 0 0);
 }
 .header-section .navbar{
 	width: 100%;
